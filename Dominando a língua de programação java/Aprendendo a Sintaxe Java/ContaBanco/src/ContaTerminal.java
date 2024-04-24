@@ -12,6 +12,7 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in); 
 
         System.out.println("Seja bem vindo ao nosso banco!\nPor favor preencha os campos seguintes:");
+        
         System.out.println("Seu nome: ");
         String nome = scanner.nextLine();
         System.out.println("Numero da tua conta");
@@ -20,6 +21,7 @@ public class ContaTerminal {
         String agencia = scanner.nextLine();
         System.out.println("Seu saldo: ");
         double saldo = scanner.nextDouble();
+        
         scanner.close();
 
 
