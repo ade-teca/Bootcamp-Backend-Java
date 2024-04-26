@@ -1,6 +1,6 @@
 
 public interface NavegadorInternet {
-    void exibirPagina(String url);
+    void exibirPagina();
     void adicionarNovaAba();
     void atualizarPagina();
 }
